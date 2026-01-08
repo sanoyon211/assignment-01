@@ -20,12 +20,31 @@
   background-color: #30B868;
   color: white;
   cursor: pointer;
+  align-items: center;
   
 }
 .btn:hover {
   background-color: transparent;
   border:  1px solid #30B868;
   color: #30B868;
+  transition:  0.7s ease-in-out;
+}
+.btn1{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12.5px 16px;
+  border-radius: 4px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  
+  
+}
+.btn1:hover {
+  background-color: #30B868;
+  border:  1px solid #30B868;
+  color: white;
   transition:  0.7s ease-in-out;
 }
 
@@ -55,4 +74,71 @@ header nav ul li a{
   font-weight: 500;
   color: black;
   line-height: 152%;
+}
+
+.btn-div{
+  display: flex ;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.btn1 .btn-div img{
+  margin: 2px;
+}
+.hero{
+  background-image: url("../assets/hero-bg.png");
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 154px 0 179px 0;
+}
+.hero .hero-container{
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  text-align: center;
+}
+.hero-container .subtitle{
+  display: flex;
+  gap: 10px;
+  max-width: 235px;
+  background-color: white;
+  padding: 8px 12px;
+  border-radius: 9999px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #30B868;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto 16px auto;
+}
+.hero-container h1{
+  max-width: 770px;
+  font-size: 72px;
+  font-weight: bold;
+  line-height: 84px;
+  color: white;
+  margin: 0 auto 16px auto;
+}
+.hero-container h1 span{
+  color: #30B868;
+}
+.hero-container p{
+  max-width: 770px;
+  font-size: 18px;
+  line-height: 24px;
+  color: white;
+  margin: 0 auto 32px auto;
+}
+.hero-buttons{
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  
+}
+.hero-container .hero-btn{
+  display: inline-block;
+  margin: 0 auto;
 }
