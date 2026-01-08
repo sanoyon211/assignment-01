@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+
+/* Common styles */
+.btn{
+  font-size: 16px;
+  font-weight: 600;
+  padding: 12.5px 16px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  background-color: #30B868;
+  color: white;
+  cursor: pointer;
+  
+}
+.btn:hover {
+  background-color: transparent;
+  border:  1px solid #30B868;
+  color: #30B868;
+  transition:  0.7s ease-in-out;
+}
+
+
+/* Main styles */
+header nav{
+  width: 100%;
+  max-width: 1360px;
+  display: flex;
+  justify-content: space-between;
+  margin: 16px auto;
+  align-items: center;
+}
+header nav img{
+  max-width: 139px;
+}
+header nav ul{
+  display: flex;
+  gap: 32px;
+}
+header nav ul li{
+  list-style: none;
+}
+header nav ul li a{
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+  line-height: 152%;
+}
