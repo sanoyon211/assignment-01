@@ -186,5 +186,46 @@ header nav ul li a{
   font-size: 16px;
   line-height: 20px;
   color: #627382;
-
 }
+
+#knowledge{
+  width: 100%;
+  max-width: 1360px;
+  display: flex;
+  gap: 60px;
+  align-items: center ;
+  margin: 120px ;
+}
+#knowledge img .st{
+  width: 600px;
+}
+
+.knowledge-content .subtitle{
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #30B868;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.knowledge-content h4{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  text-transform: capitalize;
+  margin-bottom: 16px;
+}
+.knowledge-content .pera{
+  font-size: 18px;
+  line-height: 20px;
+  color: #627382;
+  margin-bottom: 40px;
+}
+.knowledge-content ul li{
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
