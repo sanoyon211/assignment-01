@@ -304,6 +304,10 @@ footer .footer-container{
   padding: 2px 3px;
   border-radius: 100%;
 }
+.footer-container hr{
+  border: none;
+  border-top: 1px solid rgba(229, 231, 235, 1);
+}
 .footer-container p{
   margin-top: 30px;
   font-size: 16px;
